@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN apt update && apt install -y curl ca-certificates
+RUN apt update && apt install -y curl ca-certificates libicu-dev
 
 # install cloudflared
 RUN curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 \
