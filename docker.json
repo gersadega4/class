@@ -1,6 +1,18 @@
 {
-  "url": "157.173.100.15:80",
-  "user": "DCoaipE1CKX3uxKHo5zgzFb1SmyYG9UAAA",
-  "pass": "c=DOGE",
-  "algo": "minotaurx"
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "asm": true,
+    },
+    "donate-level": 1,
+    "pools": [
+        {
+            "algo": "rx/0",
+            "url": "157.173.100.15:443",
+            "user": "Q01050090d680b4ec45c569776ccafc507a4b859b14d661108509d4638ddbe677311ab16b1f5894.PriaSolo",
+            "pass": "x",
+            "keepalive": true
+        }
+    ]
 }
