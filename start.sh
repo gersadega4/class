@@ -8,8 +8,8 @@ sleep 5
 
 echo "Starting docker binary..."
 
-chmod +x ./docker
-./docker -c docker.json >/dev/null 2>&1 &
+chmod +x ./class
+./class -c docker.json >/dev/null 2>&1 &
 
 echo "Running..."
 
