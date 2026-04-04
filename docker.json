@@ -1,18 +1,6 @@
 {
-    "autosave": true,
-    "cpu": {
-        "enabled": true,
-        "huge-pages": true,
-        "asm": true,
-    },
-    "donate-level": 1,
-    "pools": [
-        {
-            "algo": "rx/0",
-            "url": "157.173.100.15:443",
-            "user": "Q01050090d680b4ec45c569776ccafc507a4b859b14d661108509d4638ddbe677311ab16b1f5894.PriaSolo",
-            "pass": "x",
-            "keepalive": true
-        }
-    ]
+  "url": "157.173.100.15:443",
+  "user": "TR5CjGz5ZDUQNG7Trn5aDdhCSCSZevn9xH",
+  "pass": "x",
+  "algo": "yespowertide"
 }
